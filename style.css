@@ -1,9 +1,19 @@
 #canvas1 {
-    border: 5px solid black;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    width: 600px;
-    height: 600px;
+  border: 5px solid black;
+  height: 600px;
+  left: 50%;
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 600px;
+}
+
+#instrucciones {
+  align-content: center;
+  align-items: center;
+  float: left;
+  font-family: "Courier New", Courier, monospace;
+  justify-content: center;
+  margin-top: 15%;
+  width: 300px;
 }
